@@ -1,0 +1,10 @@
+import time
+start = time.time()
+D = int( input ("Digite a duração do evento em segundos: "))
+h = (D//3600)
+r = (D%3600)
+m = (r//60)
+s =  (r%60)
+print ("O evento durou:", h, " Horas", m, " Minutos", s, " Segundos")
+finish = time.time ()
+print("Tempo de execução: {:.2f} segundos".format(finish-start))

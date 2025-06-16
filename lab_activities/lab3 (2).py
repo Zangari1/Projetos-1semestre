@@ -1,0 +1,8 @@
+sm = float(input("Digite o valor do salário minimo: "))
+a = float(input("Quantidade de água consumida esse mês: "))
+vsm = (sm*0.00002)
+vca = (vsm*a)
+vcd = (vca*0.15)
+vt = (vca-vcd)
+print ("O valor da conta de água será: ", vca )
+print ("O valor com desconto é: ", vt)
